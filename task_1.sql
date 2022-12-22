@@ -9,7 +9,6 @@ create schema homework;
 
 create table homework.persons
 (
-    id             int,
     name           varchar,
     surname        varchar,
     age            int,
@@ -19,7 +18,7 @@ create table homework.persons
 );
 
 insert into homework.persons (id, name, surname, age, phone_number, city_of_living)
-values (1, 'Pavel', 'Pavlov', 35, '+79006005040', 'MOSCOW'),
-       (2, 'Ivan', 'Ivanov', 34, '+7(3812)906050', 'OMSK'),
-       (3, 'Petr', 'Petrov', 24, '+7(495)9005040', 'MOSCOW');
+values ('Pavel', 'Pavlov', 35, '+79006005040', 'MOSCOW'),
+       ('Ivan', 'Ivanov', 34, '+7(3812)906050', 'OMSK'),
+       ('Petr', 'Petrov', 24, '+7(495)9005040', 'MOSCOW');
 
